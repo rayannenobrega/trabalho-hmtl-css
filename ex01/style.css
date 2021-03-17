@@ -5,18 +5,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 body{
     text-align: center;
+    background-color: #F2F2EB;
 }
+.curved {
+    position: relative;
+    background: #F09899;
+    height: 25vh;
+    border-bottom-left-radius: 50% 45%;
+    border-bottom-right-radius: 50% 45%;
+  }
 h1{
     font-family: 'Cabin Sketch', cursive;
     font-size: 100px;
     margin-bottom: 8px;
-    margin-top: 80px;
+    margin-top: 0px;
+    padding-top: 60px;
 }
 h2{
     font-family: 'Cabin Sketch', cursive;
+    font-size: 45px;
     margin-top: 80px;
 }
-span {
+#subtitulo {
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
+}
+footer{
+    position: relative;
+    background: #F09899;
+    height: 6vh;
+    border-top-left-radius: 50% 45%;
+    border-top-right-radius: 50% 45%;
+    color: black;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+p{
+    
+    padding-top:12px;
+
+}
+
+.gifs{
+    height: 210px;
+}
+#gato-construcao{
+    width: 50%;
+    border: 2px #B7A3B1 dotted;
 }
